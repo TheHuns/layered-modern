@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #323232;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200; }
+  body header {
+    height: 12vh;
+    display: flex;
+    border-bottom: solid 1px #f4f4f4b9;
+    color: #f4f4f4b9; }
+    body header h1 {
+      padding-left: 1rem;
+      font-weight: 200; }
+      body header h1 span {
+        font-weight: 900; }
+    body header ul {
+      align-self: flex-end;
+      margin-left: auto;
+      display: flex;
+      list-style: none;
+      padding-right: 2rem;
+      padding-bottom: 1rem; }
+      body header ul li {
+        padding-right: 1rem; }
+        body header ul li:hover {
+          cursor: pointer; }

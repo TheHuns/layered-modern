@@ -1,0 +1,44 @@
+$light-grey-bg: rgb(50, 50, 50);
+$secondary-grey: #f4f4f4b9;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: $light-grey-bg;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+
+    header {
+        height: 12vh;
+        display: flex;
+        border-bottom: solid 1px $secondary-grey;
+        color: $secondary-grey;
+
+        h1 {
+            padding-left: 1rem;
+            font-weight: 200;
+
+            span {
+                font-weight: 900;
+            }
+        }
+
+        ul {
+            align-self: flex-end;
+            margin-left: auto;
+            display: flex;
+            list-style: none;
+            padding-right: 2rem;
+            padding-bottom: 1rem;
+
+            li {
+                padding-right: 1rem;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
