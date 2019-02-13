@@ -1,5 +1,6 @@
 $light-grey-bg: rgb(50, 50, 50);
 $secondary-grey: #f4f4f4b9;
+$yellow-accent: rgb(175, 149, 64);
 
 body {
     margin: 0;
@@ -8,6 +9,10 @@ body {
     background: $light-grey-bg;
     font-family: "Open Sans", sans-serif;
     font-weight: 200;
+
+    .yellow {
+        color: $yellow-accent;
+    }
 
     header {
         height: 12vh;
@@ -39,6 +44,129 @@ body {
                     cursor: pointer;
                 }
             }
+        }
+    }
+
+    .showcase {
+        width: 85%;
+        margin: 70px 0;
+        position: relative;
+        margin-left: auto;
+
+        p {
+            padding-right: 6rem;
+            color: $secondary-grey;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-right: 3rem;
+        }
+
+        .showcase-img {
+            background: url(/img/showcase.jpeg);
+            height: 500px;
+            width: 100%;
+            background-size: cover;
+            margin-top: 4rem;
+        }
+
+        .floating-text {
+            font-family: "Londrina Outline", cursive;
+            color: $yellow-accent;
+            font-size: 200px;
+            position: absolute;
+            top: 83%;
+            left: -10%;
+        }
+    }
+
+    #believe {
+        color: $secondary-grey;
+        font-size: 1.5rem;
+        padding: 5rem;
+    }
+
+    .big-agnes {
+        width: 80%;
+        margin: 120px 0;
+        position: relative;
+        padding-top: 5rem;
+
+        .agnes-img {
+            background: url(/img/agnes.jpg);
+            height: 500px;
+            width: 90%;
+            background-size: cover;
+        }
+
+        .company-description {
+            width: 250px;
+            height: 400px;
+            position: absolute;
+            top: 50%;
+            right: -17%;
+            color: $secondary-grey;
+            font-size: 1.3rem;
+
+            a {
+                text-decoration: none;
+                color: $yellow-accent;
+
+                &:hover {
+                    color: $secondary-grey;
+                }
+            }
+        }
+
+        .agnes-floating-text {
+            font-family: "Londrina Outline", cursive;
+            color: $yellow-accent;
+            font-size: 200px;
+            position: absolute;
+            top: -10%;
+            right: -10%;
+        }
+    }
+
+    .nrs {
+        width: 80%;
+        margin: 120px 0;
+        position: relative;
+        padding-top: 5rem;
+        margin-left: auto;
+
+        .nrs-img {
+            background: url(/img/nrs.jpeg);
+            height: 500px;
+            width: 90%;
+            background-size: cover;
+        }
+
+        .company-description {
+            width: 250px;
+            height: 400px;
+            position: absolute;
+            top: 50%;
+            left: -22%;
+            color: $secondary-grey;
+            font-size: 1.3rem;
+
+            a {
+                text-decoration: none;
+                color: $yellow-accent;
+
+                &:hover {
+                    color: $secondary-grey;
+                }
+            }
+        }
+
+        .nrs-floating-text {
+            font-family: "Londrina Outline", cursive;
+            color: $yellow-accent;
+            font-size: 200px;
+            position: absolute;
+            top: -10%;
+            left: -10%;
         }
     }
 }

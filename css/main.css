@@ -5,6 +5,8 @@ body {
   background: #323232;
   font-family: "Open Sans", sans-serif;
   font-weight: 200; }
+  body .yellow {
+    color: #af9540; }
   body header {
     height: 12vh;
     display: flex;
@@ -26,3 +28,92 @@ body {
         padding-right: 1rem; }
         body header ul li:hover {
           cursor: pointer; }
+  body .showcase {
+    width: 85%;
+    margin: 70px 0;
+    position: relative;
+    margin-left: auto; }
+    body .showcase p {
+      padding-right: 6rem;
+      color: #f4f4f4b9;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-right: 3rem; }
+    body .showcase .showcase-img {
+      background: url(/img/showcase.jpeg);
+      height: 500px;
+      width: 100%;
+      background-size: cover;
+      margin-top: 4rem; }
+    body .showcase .floating-text {
+      font-family: "Londrina Outline", cursive;
+      color: #af9540;
+      font-size: 200px;
+      position: absolute;
+      top: 83%;
+      left: -10%; }
+  body #believe {
+    color: #f4f4f4b9;
+    font-size: 1.5rem;
+    padding: 5rem; }
+  body .big-agnes {
+    width: 80%;
+    margin: 120px 0;
+    position: relative;
+    padding-top: 5rem; }
+    body .big-agnes .agnes-img {
+      background: url(/img/agnes.jpg);
+      height: 500px;
+      width: 90%;
+      background-size: cover; }
+    body .big-agnes .company-description {
+      width: 250px;
+      height: 400px;
+      position: absolute;
+      top: 50%;
+      right: -17%;
+      color: #f4f4f4b9;
+      font-size: 1.3rem; }
+      body .big-agnes .company-description a {
+        text-decoration: none;
+        color: #af9540; }
+        body .big-agnes .company-description a:hover {
+          color: #f4f4f4b9; }
+    body .big-agnes .agnes-floating-text {
+      font-family: "Londrina Outline", cursive;
+      color: #af9540;
+      font-size: 200px;
+      position: absolute;
+      top: -10%;
+      right: -10%; }
+  body .nrs {
+    width: 80%;
+    margin: 120px 0;
+    position: relative;
+    padding-top: 5rem;
+    margin-left: auto; }
+    body .nrs .nrs-img {
+      background: url(/img/nrs.jpeg);
+      height: 500px;
+      width: 90%;
+      background-size: cover; }
+    body .nrs .company-description {
+      width: 250px;
+      height: 400px;
+      position: absolute;
+      top: 50%;
+      left: -22%;
+      color: #f4f4f4b9;
+      font-size: 1.3rem; }
+      body .nrs .company-description a {
+        text-decoration: none;
+        color: #af9540; }
+        body .nrs .company-description a:hover {
+          color: #f4f4f4b9; }
+    body .nrs .nrs-floating-text {
+      font-family: "Londrina Outline", cursive;
+      color: #af9540;
+      font-size: 200px;
+      position: absolute;
+      top: -10%;
+      left: -10%; }
