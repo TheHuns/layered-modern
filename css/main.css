@@ -1,3 +1,9 @@
+@media (min-width: 1000px) {
+  .showcase-img,
+  .agnes-img,
+  .nrs-img {
+    height: 700px; } }
+
 body {
   margin: 0;
   padding: 0;
@@ -10,20 +16,21 @@ body {
   body header {
     height: 12vh;
     display: flex;
-    border-bottom: solid 1px #f4f4f4b9;
-    color: #f4f4f4b9; }
+    border-bottom: solid 1px #f4f4f4ce;
+    color: #f4f4f4ce; }
     body header h1 {
       padding-left: 1rem;
-      font-weight: 200; }
+      font-weight: 100;
+      font-size: 1.7rem;
+      align-self: center; }
       body header h1 span {
         font-weight: 900; }
     body header ul {
-      align-self: flex-end;
+      align-self: center;
       margin-left: auto;
       display: flex;
       list-style: none;
-      padding-right: 2rem;
-      padding-bottom: 1rem; }
+      padding-right: 2rem; }
       body header ul li {
         padding-right: 1rem; }
         body header ul li:hover {
@@ -35,10 +42,10 @@ body {
     margin-left: auto; }
     body .showcase p {
       padding-right: 6rem;
-      color: #f4f4f4b9;
+      color: #f4f4f4ce;
       font-size: 1.5rem;
       font-weight: 600;
-      margin-right: 3rem; }
+      width: 70%; }
     body .showcase .showcase-img {
       background: url(/img/showcase.jpeg);
       height: 500px;
@@ -53,7 +60,7 @@ body {
       top: 83%;
       left: -10%; }
   body #believe {
-    color: #f4f4f4b9;
+    color: #f4f4f4ce;
     font-size: 1.5rem;
     padding: 5rem; }
   body .big-agnes {
@@ -72,13 +79,13 @@ body {
       position: absolute;
       top: 50%;
       right: -17%;
-      color: #f4f4f4b9;
+      color: #f4f4f4ce;
       font-size: 1.3rem; }
       body .big-agnes .company-description a {
         text-decoration: none;
         color: #af9540; }
         body .big-agnes .company-description a:hover {
-          color: #f4f4f4b9; }
+          color: #f4f4f4ce; }
     body .big-agnes .agnes-floating-text {
       font-family: "Londrina Outline", cursive;
       color: #af9540;
@@ -103,13 +110,13 @@ body {
       position: absolute;
       top: 50%;
       left: -22%;
-      color: #f4f4f4b9;
+      color: #f4f4f4ce;
       font-size: 1.3rem; }
       body .nrs .company-description a {
         text-decoration: none;
         color: #af9540; }
         body .nrs .company-description a:hover {
-          color: #f4f4f4b9; }
+          color: #f4f4f4ce; }
     body .nrs .nrs-floating-text {
       font-family: "Londrina Outline", cursive;
       color: #af9540;
@@ -117,3 +124,41 @@ body {
       position: absolute;
       top: -10%;
       left: -10%; }
+  body footer {
+    background: #282828;
+    min-height: 400px; }
+    body footer .container {
+      width: 90%;
+      margin: 2rem;
+      height: 450px;
+      margin-bottom: 0; }
+      body footer .container .upper-footer {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding-top: 36px;
+        color: #f4f4f4ce;
+        height: 300px;
+        border-bottom: 1px solid #f4f4f4ce; }
+        body footer .container .upper-footer .city {
+          width: 20%;
+          align-self: center; }
+      body footer .container .lower-footer {
+        color: #f4f4f4ce;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 1rem; }
+        body footer .container .lower-footer h1 {
+          padding-left: 1rem;
+          font-weight: 100;
+          font-size: 1.7rem;
+          align-self: center; }
+          body footer .container .lower-footer h1 span {
+            font-weight: 600; }
+        body footer .container .lower-footer a {
+          align-self: center;
+          text-decoration: none;
+          color: #f4f4f4ce;
+          padding-bottom: 0.5rem; }
+          body footer .container .lower-footer a:hover {
+            color: #af9540; }
