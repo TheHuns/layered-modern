@@ -62,10 +62,18 @@ body {
         position: absolute;
         top: 83%;
         left: -10%; }
-    body main #believe {
+    body main .space {
+      height: 10px; }
+    body main .meet {
       color: #f4f4f4ce;
       font-size: 1.5rem;
-      padding: 5rem; }
+      padding: 5rem;
+      display: flex;
+      align-items: center;
+      margin-top: 3rem; }
+      body main .meet i {
+        color: #af9540;
+        padding-right: 1rem; }
     body main .big-agnes {
       width: 80%;
       margin: 120px 0;
